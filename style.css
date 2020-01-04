@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS RESER finished*/
+
+.wrap{
+    width: 1000px;
+    margin: 0px auto;
+}
+.nav{
+    background-color: #f6f6f6;
+}
+.nav ul{
+    float:right;
+    margin: 5px 0;
+}
+.nav ul li{
+    float:left;
+    margin: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav ul li img{
+    float:left;
+    padding-right: 5px;
+}
+.nav .facebook span{
+    float:left;
+    padding-right: 10px;
+    border-right: 2px solid #CCC;
+    color: #4460a0;
+}
+.nav .twitter span{
+    float:left;
+    padding-right: 15px;
+    color: #00aaec;
+}
+.clearfix{
+    clear: both;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝nav結束 */
+.top .logo{
+    background-color: #fff;
+    float: left;
+}
+.top .logo a{
+    background-image: url("images/logo.png");
+    width: 224px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.top .menu{
+    float: right;
+}
+.top .menu li{
+    float: left;
+    margin: 0px 15px;
+    line-height: 50px;
+}
+.top .menu li a{
+    text-decoration: none;
+    color: #00cc99;
+    font-size: 15px;
+    padding: 15px 10px 12px 10px;
+    border-bottom: 3px solid #fff;
+}
+.top .menu li a:hover{
+    border-bottom: 3px solid #00cc99;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝top結束 */
+.banner{
+    position: relative;
+}
+.banner .title{
+    position: absolute;
+    top: 90px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+    padding: 40px 20px;
+    background-color: rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝banner結束 */
+.course_list{
+    margin: 65px 5px 30px 5px;
+}
+.course_list .course_box{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 325px;
+    background-color: #fff;
+    margin: 0px 15px;
+    box-shadow: #bbb 1px 3px 3px;
+}
+.course_list .course_box img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.course_list .course_box h3{
+    font-size: 18px;
+    font-weight: 800;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.course_list .course_box p{
+    font-size: 15px;
+    text-align:justify;
+    line-height: 22px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 60%;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝course_list結束 */
+.course_compared{
+    margin-bottom: 60px;
+}
+.course_compared h2{
+    padding: 30px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.course_compared table{
+    width: 840px;
+    margin: 0px auto;
+}
+.course_compared table th, .course_compared table td{
+    padding: 10px 20px;
+}
+
+.course_compared table th{
+    font-weight: 600;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+.course_compared table td{
+    width: 25%;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+.course_compared table tr th:nth-child(2){
+    width: 30%;
+}
+.course_compared table tr td:nth-child(2){
+    width: 30%;
+}
+.course_compared table tr th:nth-child(4){
+    width: 20%;
+}
+.course_compared table tr td:nth-child(4){
+    width: 20%;
+}
+.course_compared table .mark{
+    color: #42b392;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝course_compared結束 */
+.sent_mail{
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(#00644b,#009871);
+    background: -o-linear-gradient(#00644b,#009871);
+    background: -moz-linear-gradient(#00644b,#009871);
+    background: linear-gradient(#00644b,#009871);
+    float: left;
+}
+.sent_mail h3{
+    font-size: 24px;
+    font-weight: 800px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sent_mail textarea{
+    width: 450px;
+    height: 250px;
+    border-radius: 5px;
+    border: 0px;
+}
+.sent_mail ul{
+    float: right;
+}
+.sent_mail ul li{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.sent_mail ul li input{
+    width: 460px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 10px;
+}
+.sent_mail ul li .btn_sent{
+    width: 70px;
+    height: 35px;
+    float: right;
+    margin-top: 10px;
+    background-color: #00cc99;
+    color: #fff;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝sent_mail結束 */
+.footer .footer_logo a{
+    background-image: url(images/footerLogo.png);
+    width: 171px;
+    height: 36px;
+    background-repeat: no-repeat; 
+    float: left;
+    margin: 20px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.footer ul{
+    float: right;
+    margin: 20px;
+}
+.footer ul li{
+    line-height: 24px;
+    font-size: 15px;
+}
+.footer ul li span{
+    color: #e12d80;
+}
