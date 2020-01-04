@@ -149,6 +149,10 @@ table {
     background-color: #fff;
     margin: 0px 15px;
     box-shadow: #bbb 1px 3px 3px;
+    cursor: pointer;
+}
+.course_list .course_box:hover{
+    background-color: #eee;
 }
 .course_list .course_box img{
     position: absolute;
@@ -264,6 +268,10 @@ table {
     margin-top: 10px;
     background-color: #00cc99;
     color: #fff;
+    cursor: pointer;
+}
+.sent_mail ul li .btn_sent:hover{
+    background-color: #47dfb9;
 }
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝sent_mail結束 */
 .footer .footer_logo a{
