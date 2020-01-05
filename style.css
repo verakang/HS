@@ -148,7 +148,7 @@ table {
     height: 325px;
     background-color: #fff;
     margin: 0px 15px;
-    box-shadow: #bbb 1px 3px 3px;
+    box-shadow: #e4e4e4 1px 3px 3px;
     cursor: pointer;
 }
 .course_list .course_box:hover{
