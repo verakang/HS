@@ -113,10 +113,11 @@ body{
     line-height: 50px;
 }
 .top .menu li a{
+    display: block;
     text-decoration: none;
     color: #00cc99;
     font-size: 15px;
-    padding: 15px 10px 12px 10px;
+    padding: 0px 10px 0px 10px;
     border-bottom: 3px solid #fff;
 }
 .top .menu li a:hover{
@@ -180,6 +181,14 @@ body{
     position: absolute;
     top: 60%;
 }
+.course_list .course_box ul{
+    font-size: 15px;
+    text-align:justify;
+    line-height: 22px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 67%;
+}
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝course_list結束 */
 .course_compared{
     margin-bottom: 60px;
@@ -233,7 +242,6 @@ body{
     background: -o-linear-gradient(#00644b,#009871);
     background: -moz-linear-gradient(#00644b,#009871);
     background: linear-gradient(#00644b,#009871);
-    float: left;
 }
 .sent_mail h3{
     font-size: 24px;
@@ -259,22 +267,25 @@ body{
     color: #fff;
 }
 .sent_mail ul li input{
+    display: block;
     width: 460px;
     height: 30px;
     border-radius: 5px;
     border: 0px;
     padding-left: 10px;
 }
-.sent_mail ul li .btn_sent{
+.sent_mail .btn_sent{
     width: 70px;
     height: 35px;
+    border-radius: 5px;
+    border: 0px;
     float: right;
     margin-top: 10px;
     background-color: #00cc99;
     color: #fff;
     cursor: pointer;
 }
-.sent_mail ul li .btn_sent:hover{
+.sent_mail .btn_sent:hover{
     background-color: #47dfb9;
 }
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝sent_mail結束 */
